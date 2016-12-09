@@ -1,0 +1,16 @@
+{
+  "author":"yadviga.polezhaeva"
+  "name": "selenium-training",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+//    "selenium-webdriver":"3.0.1",
+//    "selenium-standalone":"5.9.0",
+    "protractor":"4.0.11",
+    "webdriver-manager":"~10.2.1"
+  },
+  "scripts": {
+    "install-env": "npm install protractor -g && webdriver-manager update && webdriver-manager update --ie32",
+    "wm-start": "webdriver-manager start"
+  }
+}
